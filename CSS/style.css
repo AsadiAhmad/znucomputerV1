@@ -6,12 +6,15 @@ body {
     background-size: cover;
   }
 
-  .allwrite {
+  .allwrtie {
+    border: 3px solid;
     background-color: antiquewhite;
+    padding: 10px;
+    margin: 20px;
   }
- 
+
  /* Navbar container */
- .navbar {
+  .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
@@ -47,7 +50,7 @@ body {
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(0, 166, 255);
   }
   
   /* Dropdown content (hidden by default) */
