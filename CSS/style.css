@@ -8,6 +8,7 @@ body {
 
 h2.header {
   text-align: center;
+  font-family:sans-serif;
 }
 
 .allwrtie {
@@ -91,7 +92,7 @@ h2.header {
 }
 
 footer {
-  position: fixed;
+  position:fixed;
   left: 0;
   bottom: 0;
   width: 100%;
