@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "optimusprincepsregular";
+  src: url("./../Fonts/OptimusPrinceps/optimusprinceps-webfont.woff2") format("woff2"),
+    url("./../Fonts/OptimusPrinceps/optimusprinceps-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'optimusprincepssemiboldRg';
+  src: url('./../Fonts/OptimusPrincepsBold/optimusprincepssemibold-webfont.woff2') format('woff2'),
+       url('./../Fonts/OptimusPrincepsBold/optimusprincepssemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntubold';
+  src: url('./../Fonts/Ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntubold_italic';
+  src: url('./../Fonts/Ubuntu/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntuitalic';
+  src: url('./../Fonts/Ubuntu/ubuntu-italic-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntulight';
+  src: url('./../Fonts/Ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntulight_italic';
+  src: url('./../Fonts/Ubuntu/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntumedium';
+  src: url('./../Fonts/Ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntumedium_italic';
+  src: url('./../Fonts/Ubuntu/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubunturegular';
+  src: url('./../Fonts/Ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
+       url('./../Fonts/Ubuntu/ubuntu-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
