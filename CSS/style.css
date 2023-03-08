@@ -13,6 +13,7 @@ h2.header {
 
 .allwrtie {
   border: 3px solid;
+  text-align: justify;
   background-color: rgb(250, 235, 215, 0.6);
   padding: 10px;
   padding-left: 20px;
