@@ -112,12 +112,13 @@ table{
 }
 
 p.table_head{
-  border-bottom: 3px solid #270a0a;
+  border-bottom: 3px solid rgb(23, 112, 167);
   margin-left: 20px;
 }
 
 tr:hover{
   background-color: #f5f5f5;
+  cursor: pointer;
 }
 
 td{
