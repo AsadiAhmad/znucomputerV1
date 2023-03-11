@@ -23,6 +23,10 @@ h2.header {
   font-size: large;
 }
 
+p.passage{
+  text-align: center;
+}
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
