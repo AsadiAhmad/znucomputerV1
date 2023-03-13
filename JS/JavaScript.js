@@ -1,5 +1,6 @@
-let name = 'There is no Easter Eggs here go away!';
-console.log(name)
+let egg = String.fromCodePoint(129370) //🥚
+let easter_egg = `There is no Easter Eggs ${egg} here go away!`;
+console.log(easter_egg)
 
 function link_tr(){
     var rowCount = document.getElementById('Table').rows.length;
