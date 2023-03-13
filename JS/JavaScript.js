@@ -1,4 +1,4 @@
-let name = 'There is no istrage here go away!';
+let name = 'There is no Easter Eggs here go away!';
 console.log(name)
 
 function link_tr(){
