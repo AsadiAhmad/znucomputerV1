@@ -1,5 +1,7 @@
 let egg = String.fromCodePoint(129370) //🥚
+let happy = String.fromCodePoint(128512) //😀
 let easter_egg = `There is no Easter Eggs ${egg} here go away!`;
+console.log(`if you press ctrl + shift + k you can see this congratulations! ${happy}`)
 console.log(easter_egg)
 
 function link_tr(){
