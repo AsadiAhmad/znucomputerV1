@@ -15,4 +15,9 @@ function link_tr(){
     } 
 }
 
+function blind_user(){
+    document.oncontextmenu = new Function("return false");
+}
+
 link_tr();
+blind_user();
