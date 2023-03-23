@@ -54,3 +54,4 @@ function updateCount(count) {
 
 link_tr();
 blind_user();
+init();
