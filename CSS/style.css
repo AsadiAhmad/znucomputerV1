@@ -145,21 +145,46 @@ td.td3{
   text-align: right;
 }
 
-div.block1{
+div.block1A{
   width: 60%;
   display: inline-block;
   vertical-align: top;
 }
 
-div.block2{
+div.block2A{
   width: 39%;
   display: inline-block;
   vertical-align: top;
 }
 
+div.block1B{
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.block2B{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.block3B{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
 @media screen and (max-width: 700px) {
-  div.block1,
-  div.block2{
+  div.block1A,
+  div.block2A{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.block2B,
+  div.block3B{
     width: 100%;
   }
 }
