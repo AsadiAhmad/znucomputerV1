@@ -145,6 +145,13 @@ td.td3{
   text-align: right;
 }
 
+video{
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  margin-top: 30px;
+}
+
 div.block1A{
   width: 60%;
   display: inline-block;
@@ -182,4 +189,28 @@ div.block3B{
   div.block3B{
     width: 100%;
   }
+}
+
+button.download_button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p.download_text{
+  text-align: center;
+}
+
+div.download_image {
+  display:inline-block;
+}
+
+div.download_text {
+  display:inline-block;
 }

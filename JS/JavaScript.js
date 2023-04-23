@@ -4,14 +4,26 @@ let easter_egg = `There is no Easter Eggs ${egg} here go away!`;
 console.log(`if you press ctrl + shift + k you can see this congratulations! ${happy}`)
 console.log(easter_egg)
 
-function link_tr(){
-    var haveTable = document.getElementById('Table');
-    if (haveTable != null) {
-        var rowCount = document.getElementById('Table').rows.length;
-        for (let i = 1; i <= rowCount; i++) {
-            const row = document.getElementById(`tr${i}`);
+function link_tr(str){
+    var table = document.getElementById(str);
+    if (table != null) {
+        for (let row of table.rows) {
             row.addEventListener("click", () => {
                 window.location.href = row.dataset.href;
+            });
+        }
+    } 
+}
+
+function link_video(tableStr, videoStr, linkStr){
+    var table = document.getElementById(tableStr);
+    var video = document.getElementById(videoStr);
+    var link = document.getElementById(linkStr);
+    if (table != null) {
+        for (let row of table.rows) {
+            row.addEventListener("click", () => {
+                video.src = row.dataset.href;
+                link.href = row.dataset.href;
             });
         }
     } 
@@ -25,5 +37,7 @@ function websiteVisits(response) {
     document.querySelector("#visits").textContent = response.value;
 }
 
-link_tr();
+link_tr('Table');
+link_tr('TableB');
+link_video('TableX', 'Video', 'download_click');
 blind_user();
