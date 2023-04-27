@@ -214,3 +214,7 @@ div.download_image {
 div.download_text {
   display:inline-block;
 }
+
+span.red{
+  color: rgb(255, 106, 0);
+}

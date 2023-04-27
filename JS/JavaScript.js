@@ -29,6 +29,16 @@ function link_video(tableStr, videoStr, linkStr){
     } 
 }
 
+/*function copyToClipBoard(elementID) {
+    var copyText = document.getElementById(elementID);
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+    alert("Copied the text: " + copyText.value);
+  }
+  onclick="copyToClipBoard('tr1')"
+  */
+
 function blind_user(){
     document.oncontextmenu = new Function("return false");
 }
