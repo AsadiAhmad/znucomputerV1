@@ -49,5 +49,6 @@ function websiteVisits(response) {
 
 link_tr('Table');
 link_tr('TableB');
+link_tr('TableC');
 link_video('TableX', 'Video', 'download_click');
 blind_user();
