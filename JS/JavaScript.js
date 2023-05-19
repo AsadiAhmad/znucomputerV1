@@ -10,6 +10,7 @@ function link_tr(str){
         for (let row of table.rows) {
             row.addEventListener("click", () => {
                 window.location.href = row.dataset.href;
+                copyToClipBoard(row);
             });
         }
     } 
@@ -29,15 +30,13 @@ function link_video(tableStr, videoStr, linkStr){
     } 
 }
 
-/*function copyToClipBoard(elementID) {
-    var copyText = document.getElementById(elementID);
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.value);
-    alert("Copied the text: " + copyText.value);
-  }
-  onclick="copyToClipBoard('tr1')"
-  */
+function copyToClipBoard(element) {
+    //var copyText = document.getElementById(elementID);
+    //element.select();
+    //element.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(element.dataset.href);
+    //alert("link Copied!");
+}
 
 function blind_user(){
     document.oncontextmenu = new Function("return false");
