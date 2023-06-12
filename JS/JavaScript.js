@@ -10,6 +10,7 @@ function link_tr(str){
         for (let row of table.rows) {
             row.addEventListener("click", () => {
                 window.location.href = row.dataset.href;
+                //window.open(row.dataset.href);
                 copyToClipBoard(row);
             });
         }
