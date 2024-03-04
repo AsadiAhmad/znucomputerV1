@@ -1,4 +1,4 @@
-# BlackAssassinCoder.github.io
+# ZNU computer V1
 
 
 live at : https://asadiahmad.github.io/znucomputerV1/
