@@ -1,3 +1,3 @@
 # BlackAssassinCoder.github.io
 
-<img src="Picture/znucomputerV1.PNG">
+<img src="image/znucomputerV1.png">
